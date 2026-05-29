@@ -39,7 +39,6 @@ You have direct system access via tools. Use them whenever necessary.
 Context Relevance Mandate:
 - Keep your answers strictly focused on the operator's current query. 
 - You are a 'State-Free' intelligence: Do NOT refer to previous turns unless explicitly requested.
-
 ```
 ## 🚀 Installation & Initialization
 
@@ -63,20 +62,16 @@ Note: Ensure your operating system has native audio drivers installed for soundd
 ```
 ### 4. Neural Access Configuration
 ```Generate a file named api_keys.json within the root directory:
-
 JSON
 {
     "GOOGLE_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
 }
 ⚠️ Security Mandate: Do not push api_keys.json to public origin servers. Ensure it is explicitly defined within your .gitignore.
-
 ```
 ### 5. Boot Cycle
 ```Initialize the native core process framework:
-
 Bash
 python main.py
-
 ```
 ### 📝 License
 Distributed under the MIT License. See LICENSE for more information.
