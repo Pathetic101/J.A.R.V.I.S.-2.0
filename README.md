@@ -45,7 +45,7 @@ Context Relevance Mandate:
 
 ### 1. Repository Setup
 ```bash
-git clone [https://github.com/Pathetic101/JARVIS-2.0.git](https://github.com/Pathetic101/JARVIS-2.0.git)
+git clone https://github.com/Pathetic101/JARVIS-2.0.git
 cd JARVIS-2.0
 
 ```
