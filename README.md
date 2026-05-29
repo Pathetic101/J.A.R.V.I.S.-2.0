@@ -1,77 +1,18 @@
 # J.A.R.V.I.S.-2.0
 J.A.R.V.I.S. Core Matrix: A voice-activated, sci-fi desktop AI assistant built with Python, PyQt6, and Google GenAI.
 
-🚀 J.A.R.V.I.S. Core Matrix (Mark XL)
-A highly advanced, voice-enabled AI desktop assistant powered by Google GenAI. Unlike standard terminal-based assistants, this project features a stunning, interactive sci-fi HUD (Heads-Up Display) built with HTML/CSS/JS and rendered natively on the desktop using PyQt6.
+🚀 J.A.R.V.I.S. Core Matrix (Mark XL)A voice-activated, cyberpunk-inspired desktop AI assistant. This architecture wraps a responsive HTML5/CSS3 HUD inside a native PyQt6 application window, leveraging Google GenAI to bridge advanced LLM cognition with local system automation.🛠️ Core Capabilities🌐 Futuristic HUD: Powered by a glassmorphic HTML user interface featuring state-driven CSS Arc Reactor animations (Reacts to Thinking, Listening, and Speaking states).📊 Hardware Telemetry: Direct backend hooks via psutil providing real-time data streaming of CPU, Memory, Disk, and Network metrics directly to the HUD.🧠 State-Free Cognition: Powered by Google's GenAI SDK, utilizing an aggressive "clean slate" system mandate for high-signal, zero-hallucination command processing.🌉 Asynchronous Data Bridge: High-performance, bidirectional event handling utilizing QWebChannel to pass data seamlessly between Python and JavaScript.💬 Advanced Developer Console: Integrated Markdown parsing (marked.js) and live syntax highlighting (highlight.js) featuring localized one-click code copy arrays.💻 Tech StackLayerTechnologies UsedCore ArchitecturePython 3.x, asyncio, threadingDesktop / RenderingPyQt6 (QWebEngineView, QWebChannel)Cognitive EngineGoogle GenAI SDKSystem & Mediapsutil, sounddevice, pyautogui, pyperclipUI EnvironmentHTML5, CSS3, JavaScript (marked.js, highlight.js)⚙️ Engineering & ArchitectureThe System Matrix PromptThe engine operates on a customized neural persona constraint structure, built dynamically at runtime:PlaintextYou are J.A.R.V.I.S., a super-intelligent AI persona. 
+Your tone is sophisticated, articulate, and slightly witty.
+You have direct system access via tools. Use them whenever necessary.
 
-J.A.R.V.I.S. is designed as a "State-Free" intelligence capable of executing local system tools, monitoring hardware telemetry in real-time, and communicating via voice and text.
-
-🛠️ Core Features
-Next-Gen Sci-Fi UI: A custom-built, glassmorphic interface featuring a dynamic CSS Arc Reactor animation that visually reacts to the AI's current state (Thinking, Listening, Speaking).
-
-Live System Telemetry: Real-time monitoring of CPU, RAM, Disk usage, and Network traffic integrated directly into the UI via psutil.
-
-Advanced Cognition: Powered by Google GenAI, optimized with a strict "Mark XL" system prompt for concise, high-signal intelligence and accurate tool execution.
-
-Python-to-JS Bridging: Seamless asynchronous communication between the Python backend and the web-based frontend using QWebChannel.
-
-Rich Chat Interface: Integrated Markdown parsing (marked.js) and syntax highlighting (highlight.js) with a custom one-click code copy function.
-
-Voice & Automation: Built-in voice recognition/activation via sounddevice and local system automation using pyautogui and pyperclip.
-
-💻 Tech Stack
-Backend: * Python 3.x
-
-Google GenAI SDK
-
-asyncio & threading
-
-Frontend UI: * HTML5 / CSS3 (Custom animations and glowing neon aesthetics)
-
-JavaScript (marked.js, highlight.js)
-
-Desktop Framework: * PyQt6 (QWebEngineView, QWebChannel)
-
-System Integrations: * psutil (Telemetry)
-
-sounddevice (Audio processing)
-
-pyautogui (System control)
-
-⚙️ Installation
-Clone the repository:
-
-Bash
-git clone https://github.com/YourUsername/Jarvis-Core-Matrix.git
-cd Jarvis-Core-Matrix
-Install the required dependencies:
-
-Bash
-pip install -r requirements.txt
-(Make sure you have PyAudio or your system's equivalent audio drivers installed for sounddevice to work properly).
-
-Configure your API Keys:
-
-Create a file named api_keys.json in the root directory.
-
-Add your Google Gemini API key:
-
-JSON
-{
-    "GOOGLE_API_KEY": "your_api_key_here"
+Context Relevance Mandate:
+- Keep your answers strictly focused on the operator's current query. 
+- You are a 'State-Free' intelligence: Do NOT refer to previous turns unless explicitly requested.
+🚀 Installation & Initialization1. Repository SetupBashgit clone https://github.com/Pathetic101/JARVIS-2.0.git
+cd JARVIS-2.0
+2. Dependency DeploymentBashpip install -r requirements.txt
+🛈 Note: Ensure your operating system has native audio drivers installed for sounddevice to map audio queues correctly.3. Neural Access ConfigurationGenerate a file named api_keys.json within the root directory:JSON{
+    "GOOGLE_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
 }
-⚠️ Important: Do not commit your api_keys.json to GitHub! Make sure it is added to your .gitignore file.
-
-🚀 Usage
-To initialize the J.A.R.V.I.S. matrix, run the main Python script:
-
-Bash
-python main.py
-Voice Activation: Toggle the microphone icon in the HUD to enable voice commands.
-
-Text Input: Use the command line at the bottom of the HUD to issue silent directives.
-
-Telemetry: Monitor the left panel for live hardware status.
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+⚠️ Security Mandate: Do not push api_keys.json to public origin servers. Ensure it is explicitly defined within your .gitignore.4. Boot CycleInitialize the native core process framework:Bashpython main.py
+📝 LicenseDistributed under the MIT License. See LICENSE for more information.💡 Why this fixes the "Unprofessional" look:GitHub Tables: Instead of a giant list, the Tech Stack is now an organized grid table.Text Code Blocks: The configuration block for the System Prompt uses a sleek ```text block so it reads cleanly without weird code highlighting.Icons & Whitespace: It adds subtle, modern icons (🛈, ⚠️, 📊) and uses horizontal lines (---) to break up the text so developers can skim it in 5 seconds.
